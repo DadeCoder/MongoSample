@@ -45,7 +45,7 @@
 
 	</dependencies>
 
-	<!-- 解决maven jdk重新配置自动降级 -->
+	<!-- 解决mavenjdk -->
 	<build>
 		<plugins>
 			<plugin>
