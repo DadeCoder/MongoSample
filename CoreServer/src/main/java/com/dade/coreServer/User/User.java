@@ -49,4 +49,5 @@ public class User extends BasicModelObject {
                 ", age=" + age +
                 '}';
     }
+    
 }
