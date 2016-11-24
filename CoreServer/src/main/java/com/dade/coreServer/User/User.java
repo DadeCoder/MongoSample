@@ -5,6 +5,8 @@ import com.dade.coreServer.basic.BasicModelObject;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import javax.validation.constraints.NotNull;
+
 /**
  * Created by Dade on 2016/11/11.
  */
@@ -14,6 +16,7 @@ public class User extends BasicModelObject {
     @Id
     String id;
 
+    @NotNull
     String name;
     Integer age;
 
@@ -49,5 +52,5 @@ public class User extends BasicModelObject {
                 ", age=" + age +
                 '}';
     }
-    
+
 }
